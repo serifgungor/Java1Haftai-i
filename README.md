@@ -31,5 +31,8 @@
 - Exception Handling (Hata Yakalama)
 
 ### 08.10.2019 Salı
+- Dizi kullanımı
+- Döngü kullanımları
+
 ### 09.10.2019 Çarşamba
 
