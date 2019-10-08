@@ -25,10 +25,9 @@
 
 ## 3.hafta
 ### 07.10.2019 Pazartesi
-- Temel Java Sınıfları
--- Tarih/Zaman Sınıfları
--- Random Sınıfı
--- Math Sınıfı
+- Tarih/Zaman Sınıfları
+- Random Sınıfı
+- Math Sınıfı
 - Exception Handling (Hata Yakalama)
 
 ### 08.10.2019 Salı
