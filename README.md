@@ -35,4 +35,9 @@
 - Döngü kullanımları
 
 ### 09.10.2019 Çarşamba
+- Döngü kullanımları
+
+## 4.hafta
+### 14.10.2019 Pazartesi
+- Metot kullanımları
 
