@@ -40,4 +40,6 @@
 ## 4.hafta
 ### 14.10.2019 Pazartesi
 - Metot kullanımları
+### 15.10.2019 Salı
+- Metot kullanımları
 
