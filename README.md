@@ -42,4 +42,6 @@
 - Metot kullanımları
 ### 15.10.2019 Salı
 - Metot kullanımları
+### 16.10.2019 Çarşamba
+- File Sınıfı/Dosya İşlemleri
 
