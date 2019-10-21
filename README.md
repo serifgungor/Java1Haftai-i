@@ -47,7 +47,7 @@
 
 ## 5.hafta
 ### 21.10.2019 Pazartesi
-- 
+- ArrayList metotları
 ### 22.10.2019 Salı
 - 
 ### 23.10.2019 Çarşamba
