@@ -45,3 +45,11 @@
 ### 16.10.2019 Çarşamba
 - File Sınıfı/Dosya İşlemleri
 
+## 5.hafta
+### 21.10.2019 Pazartesi
+- 
+### 22.10.2019 Salı
+- 
+### 23.10.2019 Çarşamba
+- 
+
