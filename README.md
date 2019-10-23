@@ -51,5 +51,5 @@
 ### 22.10.2019 Salı
 - LinkedList, Vector, Stack sınıfı metotları
 ### 23.10.2019 Çarşamba
-- 
+- Queue, Dequeue, HashMap kullanımları
 
