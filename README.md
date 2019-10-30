@@ -53,3 +53,11 @@
 ### 23.10.2019 Çarşamba
 - Queue, Dequeue, HashMap kullanımları
 
+## 6.hafta
+### 28.10.2019 Pazartesi
+- 29 Ekim Cumhuriyet Bayramı
+### 29.10.2019 Salı
+- 29 Ekim Cumhuriyet Bayramı
+### 29.10.2019 Çarpamba
+- OOP Giriş
+- OOP Kapsülleme
