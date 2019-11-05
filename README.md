@@ -58,6 +58,12 @@
 - 29 Ekim Cumhuriyet Bayramı
 ### 29.10.2019 Salı
 - 29 Ekim Cumhuriyet Bayramı
-### 29.10.2019 Çarpamba
+### 30.10.2019 Çarpamba
 - OOP Giriş
 - OOP Kapsülleme
+
+## 7.hafta
+### 04.11.2019 Pazartesi
+- OOP Kapsülleme
+### 05.11.2019 Salı
+- OOP Kalıtım
