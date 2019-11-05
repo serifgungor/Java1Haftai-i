@@ -1,7 +1,3 @@
-
-
-
-
 # Java 1 Eğitimi
 
 [İSMEK](http://ismek.istanbul), Fatih Bilişim Okulundaki 9 nolu derslikte 02.10.2019 tarihinde ürettiğimiz, Java 1 grubunun günlük olarak yedeklenen çalışmalarını burada bulabilirsiniz.
@@ -67,3 +63,5 @@
 - OOP Kapsülleme
 ### 05.11.2019 Salı
 - OOP Kalıtım
+### 06.11.2019 Çarşamba
+- OOP Çok Biçimlilik / Soyutlama
