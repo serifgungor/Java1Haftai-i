@@ -63,9 +63,9 @@
 - OOP Kapsülleme
 ### 05.11.2019 Salı
 - OOP Kalıtım
--- extends kelimesi
--- super kelimesi
--- Metot Override işlemi
--- instanceof kelimesi ve super dolu constructor kullanımları örneği
+- - extends kelimesi
+- - super kelimesi
+- - Metot Override işlemi
+- - instanceof kelimesi ve super dolu constructor kullanımları örneği
 ### 06.11.2019 Çarşamba
 - OOP Çok Biçimlilik / Soyutlama
