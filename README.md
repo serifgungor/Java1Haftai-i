@@ -69,3 +69,8 @@
 - - instanceof kelimesi ve super dolu constructor kullanımları örneği
 ### 06.11.2019 Çarşamba
 - OOP Çok Biçimlilik / Soyutlama
+
+## 8.hafta
+### 11.11.2019 Pazartesi
+### 12.11.2019 Salı
+### 13.11.2019 Çarşamba
