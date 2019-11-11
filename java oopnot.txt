@@ -1,0 +1,29 @@
+https://www.tutorialspoint.com/java
+
+https://www.javatpoint.com/java-tutorial
+
+
+
+
+OOP (Object Oriented Programming)
+
+OOP Ýlkeleri
+
+- Kapsülleme (Encapsulation)
+- Soyutlama (Abstaction)
+- Çok Biçimlilik (Polymorphism)
+- Kalýtým (Inheritance)
+
+*
+this
+super
+Metot Kavramý
+Class Kavramý ve Nesne Üretmek
+
+OOP Saðladýðý Avantajlar
+- Kod karmaþýklýðýndan bizi kurtarýr. (Düzen saðlar)
+- Güvenli uygulama geliþtirmeyi saðlar.
+- Kod okunurluðunu arttýrýr.
+- Grup çalýþmasýnda kolaylýk saðlar. 
+ 
+

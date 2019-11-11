@@ -1,0 +1,102 @@
+Temel Veritabaný Sorgularý
+
+
+CRUD (Create,Read,Update,Delete)
+
+C - Create Table, Create Database, Insert
+R - Read (Okuma Ýþlemleri / Select)
+U - Update (Güncelleme Ýþlemleri)
+D - Delete (Silme iþlemleri)
+
+
+Primary Key'in önemi
+- Bir veritabaný tablosu içerisinde bulunan satýrlarýn birbirlerinden farklý olduklarýný ifade edebilmek için
+bir tabloda ilgili bir kolonun primary key üretilmesi gerekir.
+(Primary key deðeri tekrar edilemeyecek bir deðere sahip olmasý gerekir.)
+
+Primary key ile eþ zamanlý olarak kullanabileceðimiz bir deðer ise, auto increment kelimesidir.
+Auto increment bir int kolonun deðerinin sürekli artabilmesini saðlayan bir özelliktir.
+
+Primary key auto increment ile birlikte kullanýldýðý zaman, zaten deðerin tekrarlanamayacaðý bilindiðinden
+auto increment ile eklenen satýr deðerinin primary key olan kolon deðerine +1 ilave edilmesidir.
+
+Primary key ifadesi satýrlarýn benzersiz id(int) deðerlerine sahip olmasý dolayýsýyla, eriþmek istediðimiz ve
+iþlem gerçekleþtirmek istediðimiz id'sini bildiðimiz kolona eriþmemizi kolaylaþtýrýr.
+
+SELECT,UPDATE,INSERT,DELETE
+
+Yani: id'si 5 olan satýrý göster (select),
+id'si 70 olan satýrý sil (delete),
+id'si 9 olan satýrýn ad kolon deðerini, belirttiðim yeni deðer ile deðiþtir (update),
+ilgili tablonun yeni bir satýr verisine sahip olabilmesi için (insert)
+
+Bir tabloda primary key ifadesi 1 defa bulunabilir, auto increment ifadesi ise primary key'e baðýmlý çalýþacaðý için
+o da ilgili tabloda 1 adet eklenebilir.
+
+
+
+Unique ifadesi(Benzersiz)
+
+- Bir kolonu unique yaparsanýz o kolon deðeri, yeni eklenecek deðer içerisinde olamaz. Yani veri eklenemez ve eklemek
+isteyen kiþiye hata metni iletir.
+- Örn: email adresi benzersiz kolon ise, o email adresinden tekrar ilgili tabloya kayýt eklenemez.
+
+
+
+TEMEL SORGULAR
+
+- SELECT
+-- select * from Rehber (Rehber tablosundaki tüm kolonlarý ve satýrlarý getirir.)
+-- select id,ad,soyad from Rehber (Rehber tablosundaki sadece belirttiðimiz kolonlarýn deðerlerini listeler.)
+-- select * from rehber where id=5 (Rehber tablosundaki id'si 5 olan satýrý getirir)
+-- select * from rehber where ad="Ad 1" (Rehber tablosunda adý,Ad 1 olan deðere sahip olanlarý getir.)
+-- select * from rehber where ad like "Ad%" (ad kolonu deðeri Ad ifadesi ile baþlayanlarý listeleme)
+-- select * from rehber where ad like "%Ad" (ad kolonu deðeri Ad ifadesi ile bitenleri listeleme)
+-- select * from rehber limit 3 (Rehber tablosundaki ilk 3 satýrý listeler)
+-- select * from rehber order by id desc limit 5 (id'ye göre son 5 elemaný sýrala) 
+-- select * from rehber order by id asc limit 5 (id'ye göre ilk 5 elemaný sýrala)
+-- select * from rehber order by id asc limit 5 (id'ye göre ilk 5 elemaný sýrala)
+- DELETE
+-- delete from rehber where id=3 (id'si 3 olan deðeri sildik)
+-- delete from rehber where ad="Ad 1" (ad kolon deðeri Ad 1 olan satýrlarý sil)
+-- delete from rehber (rehber tablosundaki tüm satýrlarý siler)
+- DROP
+- drop database DatabaseName (DatabaseName ismine sahip veritabanýný tamamen siler)
+- drop table rehber (rehber tablosunu siler)
+- CREATE
+
+CREATE TABLE "Rehber" (
+	"id"	INTEGER PRIMARY KEY AUTOINCREMENT,
+	"telefon_no"	VARCHAR(11),
+	"ad"	INTEGER,
+	"soyad"	INTEGER,
+	"adres"	INTEGER,
+	"email"	INTEGER
+);
+
+-- create table ile baþlayan ifadeler tablo üretir.
+-- create database DatabaseName (DatabaseName isminde veritabaný üretir.)
+
+- INSERT
+-- Ýlgili tabloya satýr verisi eklemek için kullanýlýr.
+-- insert into Rehber (telefon_no,ad,soyad,adres,email) values ('0123 111 22 33','isim','soyisim','adres','email')
+--- insert into kelimesinden sonra tablo ismi belirtilir ardýndan parantez açýp kapatýlýr. O parantezin içerisine
+deðer girmek istediðimiz kolonlarýn isimleri yazýlýr parantez kapanýþý sonrasýnda values kelimesi yazýlýr ve yine
+parantez açýlýp kapatýlýr. Ýlgili açýlan parantezin içerisine ise, values öncesinde açýlan parantezin içinde belirtilen
+kolonlara ait ilgili tipte sýralý olarak deðerlerin girilmesi beklenir.
+
+
+- UPDATE
+-- update Rehber set ad="þerif", soyad="güngör" where id=4
+--- update kelimesinden sonra tablo ismi belirtilir. Tablo isminden sonra set kelimesi kullanýlýr.
+set kelimesinden sonra deðerlerini deðiþtirmek istediðimiz kolon isimleri ve atamasý yapýlacak deðer þeklinde
+tanýmlanýr. Birden fazla kolon deðeri deðiþtirilecek ise, ilgili kolonlar ve deðerleri belirtildikten sonra
+virgüller ile ayýrýlabilir. Kolon deðer deðiþtirme belirtildikten sonra where kelimesi kullanýlarak bu güncelleme
+iþleminin neye göre gerçekleþeceði belirtilir.
+
+-- update Rehber set adres="Fatih/Ýstanbul" where email="contact@serifgungor.com"
+
+
+
+
+https://www.javatpoint.com/java-sqlite

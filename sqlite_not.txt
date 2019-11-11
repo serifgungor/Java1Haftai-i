@@ -1,0 +1,38 @@
+Veritabaný Sistemleri
+- MSSQL Server (Microsoft SQL Server/Windows)
+- MYSQL Server (Ücretsiz/Açýkkaynaklý/Platform baðýmsýz)
+-- MYSQL Workbench (Editör yazýlým)
+-- XAMPP/WAMP/LAMPP -> phpMyAdmin nedir ?
+- NOSQL 
+
+- SQLite Database (Ücretsiz/Açýkkaynaklý/Platform baðýmsýz)
+-- Local Database/ Yerel veritabaný
+-- Uygulamanýn kurulduðu bilgisayar üzerinde ilgili ürettiðimiz yazýlýmda ek bir kurulum gerektirmeden veritabaný
+çözümü ihtiyacýmýz olursa SQLite Database kullanabiliriz.
+-- Portable/Taþýnabilir.
+-- Veritabaný sistemi dosya okuma ve yazma üzerine inþa edilmiþtir.
+-- Açýk kaynaklý ve iþletim sistemi baðýmsýzlýðý olduðu için birçok yazýlým dilinde kullanýlabilir.
+--- Örn: en popüler olarak;
+---- Android Programlamada SQLite DB kullanýlmasý,
+---- iOS Programlamada SQLite DB kullanýlmasý,
+---- Python programlamada SQLite DB kullanýlmasý,
+---- PHP programlamada SQLite DB kullanýlmasý,
+---- C# programlamada SQLite DB kullanýlmasý
+
+-- SQLite database hýzlý çalýþýr. Çünkü küçük çaplý projeler için tercih ederiz.
+Kurumsal yazýlýmlar için, büyük çaplý yazýlýmlar tercih edilir. (MYSQL, MSSQL, MONGODB vsvs.)
+-- Ýnternet gerektirmeden lokal ortamda yani kiþisel bilgisayarlarda yazýlýp kullanýlabilecek uygulamalarda tercih edilir.
+-- Örn: Not Defteri, Telefon Rehberi, Günlük, Bütçe Hesap Uygulamalarý, 
+
+-- SQLite Database, eskiden Microsoft Office Paketi içerisinde bulunan Access Database Mantýðýnda çalýþtýðý söylenebilir.
+-- SQLite Database üzerindeki Tablo,Kolon,Satýr verileri harici yazýlýmlar sayesinde de yazýlým dili içerisinde
+sorgular yapmadan da görülebilmektedir.
+-- SQLite Database için en kullanýþlý popüler bir yazýlým olan DB Browser for SQLite yazýlýmý, SQLite Editör olarak
+kullanýlmaktadýr.
+
+
+https://sqlitebrowser.org adresinden indirip bilgisayara kurulmasý gerekmektedir.
+
+https://bitbucket.org/xerial/sqlite-jdbc/downloads/
+sqlite-jdbc-3.27.2.1.jar indirdik.
+

@@ -1,0 +1,38 @@
+OOP Ýlkeleri
+
+- Encapsulation (Kapsülleme)
+-- Her deðiþkenin private eriþim seviyesinde tanýmlanmasý
+-- Boþ ve Dolu Constructorlar üretilmesi
+-- Her deðiþken için getter ve setter metotlarýn üretilmesi
+-- this kelimesinin önemi
+-- toString metodunun önemi
+
+- Inheritance (Kalýtým)
+-- super kelimesinin önemi
+-- extends kelimesinin önemi
+-- Metot Override iþlemi
+
+- Abstraction (Soyutlama)
+-- Abstract class
+--- Abstract sýnýflar üretilmesi zamanýnda "public abstract class SinifAdi" þeklinde tanýmlanýr.
+--- Abstract sýnýf, üretilen ilgili sýnýfýn doðrudan üretilmesine engel olan bir yapýya sahiptir.
+--- Örn: normalde bir nesne üretirken "Araba araba = new Araba();" þeklinde tanýmlarýz. 
+bir sýnýf abstract yapýldýðý zaman "Araba araba = new Araba();" dediðimizde "= new Araba();" olan kýsým uyarý verir.
+--- Abstract sýnýflar doðrudan üretilemez, dolaylý yoldan farklý bir sýnýftan kalýtým yoluyla üretilir.
+--- Bu iþlemi sýnýfýn önemli metot ve deðiþkenlerini yazýlýmcý doðrudan görmesin istiyorsak güvenlik dolayýsýyla
+gerçekleþtiririz.
+
+-- Abstract metot
+--- Bir metodun abstract olmasý için, ilgili sýnýfý da abstract olarak tanýmlamak gerekir.
+--- Bir sýnýfý farklý bir sýnýftan türetirken extends kelimesini kullanýyoruz.
+Eðer extends ettiðimiz sýnýf abstract sýnýf ise, içerisinde abstract metot bulunuyorsa o metotlarý
+bulunduðumuz sýnýf içerisine override ettirir.(ilgili metotlarýn override edilme zorunluluðu bulunur)
+
+
+
+- Polymorphism (Çok Biçimlilik)
+
+-- implements kelimesinin önemi
+-- interface kavramýnýn önemi
+
+
