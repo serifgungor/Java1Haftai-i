@@ -82,3 +82,5 @@
 - ResultSet,Statement ve Connection sınıfları
 - Veritabanı sınıfı ve Metotlarının üretilmesi
 ### 13.11.2019 Çarşamba
+- Üretilen Veritabanı Yardımcı sınıfı ile veritabanı işlemlerinin gerçekleştirilmesi
+- Bir mysql veritabanının içe/dışa aktarılması
