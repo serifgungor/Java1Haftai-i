@@ -94,9 +94,7 @@ SQL SORGULARI
 
 * CREATE TABLE ÝFADESÝ
 
-create table sinif(
-    id int PRIMARY KEY AUTO_INCREMENT,
-    ad varchar(25) null
+create table sinif(id int PRIMARY KEY AUTO_INCREMENT,ad varchar(25) null
 );
 
 - CREATE TABLE ifadesinden sonra tablo ismi belirtilir parantez açýp kapatýlýr.
@@ -164,10 +162,28 @@ SELECT * FROM sinif WHERE ad = 'Lab 09'
 -- ad kolon deðeri Lab 09 olan satýrý getir.
 
 
+SELECT COUNT(*) AS sayi FROM ogrenci WHERE ad = 'Adem'
+-- Adem isimli öðrenci sayýsýný bulduk.
+
+SELECT COUNT(*) AS toplam_sayi FROM ogrenci
+-- Öðrenci tablosundaki toplam satýr sayýsýný yakaladýk.
+
+SELECT COUNT(*) AS toplam_sayi FROM ogrenci WHERE sinif_id = 15
+SELECT COUNT(*) AS toplam_sayi FROM ogrenci WHERE sinif_id = 20
+
+SELECT sinif.ad AS sinif_ad,ogrenci.ad,ogrenci.soyad from sinif,ogrenci where sinif.id=ogrenci.sinif_id
+-- Birden fazla tabloda sorgu yaptýk
+
+-- UPDATE ÝFADESÝ
+
+UPDATE ogrenci SET adres = 'Fatih/Ýstanbul' WHERE sinif_id= 20;
+UPDATE ogrenci SET adres = 'Eyüp Sultan/Ýstanbul' WHERE sinif_id= 15;
+UPDATE ogrenci SET tcno=123456789 WHERE id=5
 
 
 
 
+JDBC - (Java Database Connection) - Java Veritabaný Baðlantýsý
 
-
+mysql connector java
 
