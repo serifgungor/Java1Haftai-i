@@ -72,5 +72,13 @@
 
 ## 8.hafta
 ### 11.11.2019 Pazartesi
+- Veritabanı Sistemleri
+- Xampp üzerinde MySQL Kullanımı
+- Temel Veritabanı Sorguları
 ### 12.11.2019 Salı
+- .jar dosyasını projeye dahil etmek
+- Temel Veritabanı Sorguları
+- JDBC Connection
+- ResultSet,Statement ve Connection sınıfları
+- Veritabanı sınıfı ve Metotlarının üretilmesi
 ### 13.11.2019 Çarşamba
